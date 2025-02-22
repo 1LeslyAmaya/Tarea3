@@ -97,7 +97,26 @@ int main() {
         cout << nm << " es multiplo de 5 y de 7." << endl;
     else
         cout << nm << " no es multiplo de 5 y de 7." << endl;
+//generar una calificacion
+    int calificacion;
+    cout << "Ingrese la calificacion numerica (0-100): ";
+    cin >> calificacion;
+    char letraCal;
+    if(calificacion >= 90 && calificacion <= 100)
+        letraCal = 'A';
+    else if(calificacion >= 80 && calificacion <= 89)
+        letraCal = 'B';
+    else if(calificacion >= 70 && calificacion <= 79)
+        letraCal = 'C';
+    else if(calificacion >= 60 && calificacion <= 69)
+        letraCal = 'D';
+    else if(calificacion >= 0 && calificacion <= 59)
+        letraCal = 'F';
+    else {
+        cout << "Calificacion invalida." << endl;
 
+    }
+    cout << "La calificacion es: " << letraCal << endl;
 
 
 
