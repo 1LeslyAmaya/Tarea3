@@ -179,6 +179,18 @@ int main() {
         sumaa += numer;
     }
     cout << "La suma final es: " << sumaa << endl;
+//Imprima un todos los numeros pares hasta el numero ingresado
+    int m;
+    cout << "Ingrese un numero: ";
+    cin >> m;
+    int iii = 1;
+    while(iii <= m) {
+        if(iii % 2 == 0)
+            cout << iii << " ";
+        iii++;
+    }
+    cout << endl;
+
 
     return 0;
 }
