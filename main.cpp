@@ -155,6 +155,21 @@ int main() {
         suma += nume;
     }
     cout << "La suma es: " << suma << endl;
+//secuencia de fibonacci
+    int limite;
+    cout << "Ingrese un numero limite para la secuencia Fibonacci: ";
+    cin >> limite;
+    int a = 0, b = 1;
+    cout << "Fibonacci: " << a << " " << b << " ";
+    while(true) {
+        int siguiente = a + b;
+        if(siguiente > limite)
+            break;
+        cout << siguiente << " ";
+        a = b;
+        b = siguiente;
+    }
+    cout << endl;
 
 
 
