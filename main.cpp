@@ -233,7 +233,13 @@ int main() {
     for(int il = 2; il <= 20; il += 2)
         cout << il << " ";
     cout << "Los numeros pares del 2 al 20" << endl;
-
+//que muestre la tabla de multiplicar de ese numero
+    int mun;
+    cout << "Ingrese un numero para ver su tabla de multiplicar: ";
+    cin >> mun;
+    for(int is = 1; is <= 10; is++) {
+        cout << mun << " x " << is << " = " << mun * is << endl;
+    }
     return 0;
 
 }
