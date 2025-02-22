@@ -266,7 +266,19 @@ int main() {
         if(esPrimo(itt))
             cout << itt << " ";
     }
-    cout << endl;  
+    cout << endl;
+//serie de numeros hasta el ingresado
+    int termino;
+    cout << "Ingrese la cantidad de terminos para la serie triangular: ";
+    cin >> termino;
+    int sunna = 0;
+    for(int ir = 1; ir <= termino; ir++){
+        sunna = ir;
+        cout << sunna << " ";
+    }
+    cout << endl;
+
+
     return 0;
 
 }
