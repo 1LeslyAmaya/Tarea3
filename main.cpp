@@ -277,6 +277,16 @@ int main() {
         cout << sunna << " ";
     }
     cout << endl;
+//Imprima los primeros 10 terminos de fibonaci
+    int aa = 0, bb = 1;
+    cout << "Primeros 10 terminos de Fibonacci: " << aa << " " << bb << " ";
+    for(int ih = 3; ih <= 10; ih++){
+        int cc = aa + bb;
+        cout << cc << " ";
+        aa = bb;
+        bb = cc;
+    }
+    cout << endl;
 
 
     return 0;
