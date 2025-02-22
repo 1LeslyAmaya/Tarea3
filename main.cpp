@@ -12,6 +12,13 @@ int main() {
     } else {
         cout << "El numero es cero."<<endl;
     }
+    int num;
+    cout << "Ingrese un numero entero: ";
+    cin >> num;
+    if(num % 2 == 0)
+        cout << "El numero es par." << endl;
+    else
+        cout << "El numero es impar." << endl;
     return 0;
 }
 // TIP See CLion help at <a
