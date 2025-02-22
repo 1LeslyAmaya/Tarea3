@@ -135,6 +135,16 @@ int main() {
         i++;
     }
     cout << endl;
+//pedir un numero luego imprimir del 1 hasta ese numero
+    int n;
+    cout << "Ingrese un numero: ";
+    cin >> n;
+    int ii = 1;
+    while(ii <= n) {
+        cout << ii << " ";
+        ii++;
+    }
+    cout << endl;
 
 
 
