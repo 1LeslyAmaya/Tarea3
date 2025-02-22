@@ -204,6 +204,16 @@ int main() {
         cout << "La media es: " << static_cast<double>(suma) / count << endl;
     else
         cout << "No se ingresaron numeros." << endl;
+//permite que ingrese numeros hasta que sea 0
+    int nnm;
+    cout << "Ingrese numeros (se termina al ingresar 0):" << endl;
+    while(true) {
+        cin >> nnm;
+        if(nnm == 0)
+            break;
+        // No se muestra el número ingresado
+    }
+    cout << "Fin de ingreso." << endl;
 
 
     return 0;
