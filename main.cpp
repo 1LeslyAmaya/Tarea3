@@ -46,7 +46,17 @@ int main() {
     else
         cout << anio << " no es un anio bisiesto." << endl;
     }
-
+ //Determinar si es letra ingresada por el usuario es vocal o consonante
+    char letra;
+    cout << "Ingrese una letra: ";
+    cin >> letra;
+        letra = tolower(letra);
+    if(letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u')
+        cout << "La letra es una vocal." << endl;
+    else if(isalpha(letra))
+        cout << "La letra es una consonante." << endl;
+    else
+        cout << "El caracter ingresado no es una letra." << endl;
 
 
     return 0;
