@@ -77,6 +77,21 @@ int main() {
         cout << nu << " es primo." << endl;
     else
         cout << nu << " no es primo." << endl;
+//Si el año de nacimiento es valido mayor que 1900 y menor que el año actual
+    int aniio;
+    cout << "Ingrese su anio de nacimiento: ";
+    cin >> aniio;
+    // Obtener el anio actual
+    time_t t = time(0);
+    tm * now = localtime(&t);
+    int currentYear = now->tm_year + 1900;
+    if(aniio > 1900 && aniio < currentYear)
+        cout << "Anio de nacimiento valido." << endl;
+    else
+        cout << "Anio de nacimiento no valido." << endl;
+
+
+
 
     return 0;
 }
