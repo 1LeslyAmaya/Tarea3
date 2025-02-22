@@ -190,6 +190,20 @@ int main() {
         iii++;
     }
     cout << endl;
+//calcular la media de una serie de numeros ingresados
+    int numeroo, summa = 0, count = 0;
+    cout << "Ingrese numeros para calcular la media (finalice con 0):" << endl;
+    while(true) {
+        cin >> numeroo;
+        if(numeroo == 0)
+            break;
+        summa += numeroo;
+        count++;
+    }
+    if(count > 0)
+        cout << "La media es: " << static_cast<double>(suma) / count << endl;
+    else
+        cout << "No se ingresaron numeros." << endl;
 
 
     return 0;
