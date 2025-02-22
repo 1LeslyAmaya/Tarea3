@@ -118,6 +118,15 @@ int main() {
     }
     cout << "La calificacion es: " << letraCal << endl;
 
+//calcular precio despues del descuento
+    double precio, descuento;
+    cout << "Ingrese el precio del articulo: ";
+    cin >> precio;
+    cout << "Ingrese el porcentaje de descuento: ";
+    cin >> descuento;
+    double precioFinal = precio * (1 - descuento / 100);
+    cout << "El precio despues del descuento es: " << precioFinal << endl;
+
 
 
 
