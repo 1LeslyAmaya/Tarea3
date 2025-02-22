@@ -240,6 +240,16 @@ int main() {
     for(int is = 1; is <= 10; is++) {
         cout << mun << " x " << is << " = " << mun * is << endl;
     }
+//ingrese un dato y que calcule la suma de los numeros pares
+    int nur, sumam = 0;
+    cout << "Ingrese un numero: ";
+    cin >> nur;
+    for(int it = 1; it <= nur; it++){
+        if(it % 2 == 0)
+            sumam += it;
+    }
+    cout << "La suma de los numeros pares es: " << sumam << endl;
+
     return 0;
 
 }
