@@ -145,6 +145,16 @@ int main() {
         ii++;
     }
     cout << endl;
+//sumar numeros positiovs sin contar negativos
+    int nume, suma = 0;
+    cout << "Ingrese numeros positivos (ingrese un numero negativo para terminar):" << endl;
+    while(true) {
+        cin >> nume;
+        if(nume < 0)
+            break;
+        suma += nume;
+    }
+    cout << "La suma es: " << suma << endl;
 
 
 
