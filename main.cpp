@@ -170,8 +170,15 @@ int main() {
         b = siguiente;
     }
     cout << endl;
+//Ingresar datos hasta que la sume sea mayor que 100
 
-
+    int numer, sumaa = 0;
+    cout << "Ingrese numeros (se termina cuando la suma supera 100):" << endl;
+    while(sumaa <= 100) {
+        cin >> numer;
+        sumaa += numer;
+    }
+    cout << "La suma final es: " << sumaa << endl;
 
     return 0;
 }
