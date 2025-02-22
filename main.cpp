@@ -249,6 +249,15 @@ int main() {
             sumam += it;
     }
     cout << "La suma de los numeros pares es: " << sumam << endl;
+//que calcule el factorial de numero
+    int nn;
+    cout << "Ingrese un numero para calcular su factorial: ";
+    cin >> nn;
+    long long factorial = 1;
+    for(int si = 1; si <= nn; si++){
+        factorial *= si;
+    }
+    cout << "El factorial de " << nn << " es: " << factorial << endl;
 
     return 0;
 
