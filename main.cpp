@@ -228,6 +228,11 @@ int main() {
         j++;
     }
     cout << "El producto de los primeros 10 numeros naturales es: " << producto << endl;
+//Estructura de control: bucles for
+    //numeros pares del 2 al 20
+    for(int il = 2; il <= 20; il += 2)
+        cout << il << " ";
+    cout << "Los numeros pares del 2 al 20" << endl;
 
     return 0;
 
