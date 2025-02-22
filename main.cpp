@@ -127,6 +127,14 @@ int main() {
     double precioFinal = precio * (1 - descuento / 100);
     cout << "El precio despues del descuento es: " << precioFinal << endl;
 
+//BUCLES DE CONTROL WHILE
+   //numeros del 1 al 20 en orden ascendente
+    int i = 1;
+    while(i <= 20) {
+        cout << i << " ";
+        i++;
+    }
+    cout << endl;
 
 
 
