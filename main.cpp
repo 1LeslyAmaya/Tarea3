@@ -214,7 +214,14 @@ int main() {
         // No se muestra el número ingresado
     }
     cout << "Fin de ingreso." << endl;
-
+//Escribe los primeros 10 numeros naturales
+    int j = 1;
+    long long producto = 1;
+    while(j <= 10) {
+        producto *= j;
+        j++;
+    }
+    cout << "El producto de los primeros 10 numeros naturales es: " << producto << endl;
 
     return 0;
 }
