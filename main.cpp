@@ -295,6 +295,16 @@ int main() {
     cout << "La suma de los primeros 100 numeros naturales es: " << zuma << endl;
 
     cout << endl;
+//divisores del numero ingresado
+    int nl;
+    cout << "Ingrese un numero para ver sus divisores: ";
+    cin >> nl;
+    cout << "Divisores de " << nl << ": ";
+    for(int ilt = 1; ilt<= nl; ilt++){
+        if(nl % ilt == 0)
+            cout << ilt << " ";
+    }
+    cout << endl;
 
 
     return 0;
