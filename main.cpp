@@ -89,6 +89,15 @@ int main() {
         cout << "Anio de nacimiento valido." << endl;
     else
         cout << "Anio de nacimiento no valido." << endl;
+//Numero es multiplo de 5 y de 7
+    int nm;
+    cout << "Ingrese un numero: ";
+    cin >> nm;
+    if(nm % 5 == 0 && nm % 7 == 0)
+        cout << nm << " es multiplo de 5 y de 7." << endl;
+    else
+        cout << nm << " no es multiplo de 5 y de 7." << endl;
+
 
 
 
