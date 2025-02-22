@@ -305,6 +305,19 @@ int main() {
             cout << ilt << " ";
     }
     cout << endl;
+    //Imprimir los primeros 10 numeros primos
+    cout << "Primeros 10 numeros primos: ";
+    int coount = 0, nuum = 2;
+    while(coount < 10) {
+        if(esPrimo(nuum)) {
+            cout << nuum << " ";
+            coount++;
+        }
+        nuum++;
+    }
+    cout << endl;
+
+
 
 
     return 0;
