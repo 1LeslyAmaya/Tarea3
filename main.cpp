@@ -215,6 +215,12 @@ int main() {
     }
     cout << "Fin de ingreso." << endl;
 //Escribe los primeros 10 numeros naturales
+    int jj = 1;
+    while(jj <= 10) {
+        cout <<  jj << " al cuadrado es " << jj * jj << endl;
+        jj++;
+    }
+//el producto de los primeros 10 numeros naturales
     int j = 1;
     long long producto = 1;
     while(j <= 10) {
@@ -224,6 +230,7 @@ int main() {
     cout << "El producto de los primeros 10 numeros naturales es: " << producto << endl;
 
     return 0;
+
 }
 // TIP See CLion help at <a
 // href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
