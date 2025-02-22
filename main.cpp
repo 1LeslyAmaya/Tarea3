@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cctype>
 #include <cmath>
+#include <ctime>
+#include <string>
 using namespace std;
 
 bool esPrimo(int nu) {
@@ -258,7 +260,13 @@ int main() {
         factorial *= si;
     }
     cout << "El factorial de " << nn << " es: " << factorial << endl;
-
+//Que imprimalos numeros primos del 1 al 50
+    cout << "Numeros primos del 1 al 50: ";
+    for(int itt = 1; itt <= 50; itt++){
+        if(esPrimo(itt))
+            cout << itt << " ";
+    }
+    cout << endl;  
     return 0;
 
 }
