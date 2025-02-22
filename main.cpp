@@ -287,6 +287,14 @@ int main() {
         bb = cc;
     }
     cout << endl;
+ //suma de los primeros 100 numeros naturale
+    int zuma = 0;
+    for(int iiii = 1; iiii <= 100; iiii++){
+        zuma += iiii;
+    }
+    cout << "La suma de los primeros 100 numeros naturales es: " << zuma << endl;
+
+    cout << endl;
 
 
     return 0;
